@@ -5,6 +5,11 @@ import { PrivacyAgreementModule } from "./privacyAgreement/privacyAgreement.modu
 import { CompanyModule } from "./company/company.module";
 import { CompanyDataModule } from "./companyData/companyData.module";
 import { UserModule } from "./user/user.module";
+import { CommunicationManagementModule } from "./CommunicationManagement/communicationmanagement.module";
+import { CompanyManagementModule } from "./CompanyManagement/companymanagement.module";
+import { PrivacyAgreementManagementModule } from "./PrivacyAgreementManagement/privacyagreementmanagement.module";
+import { RequestManagementModule } from "./RequestManagement/requestmanagement.module";
+import { UserManagementModule } from "./UserManagement/usermanagement.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -28,6 +33,11 @@ import { AuthModule } from "./auth/auth.module";
     CompanyModule,
     CompanyDataModule,
     UserModule,
+    CommunicationManagementModule,
+    CompanyManagementModule,
+    PrivacyAgreementManagementModule,
+    RequestManagementModule,
+    UserManagementModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
